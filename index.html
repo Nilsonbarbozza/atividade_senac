@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Web Components</title>
+  <link rel="stylesheet" href="/src/assets/css/style.css">
+  <script type="module" src="/src/components/app-navbar.js"></script>
+  <script type="module" src="/src/components/app-footer.js"></script>
+  <script type="module" src="/src/components/app-card.js"></script>
+  <script type="module" src="/src/components/app-button.js"></script>
+</head>
+
+<body class="bg-gray-100">
+
+  <app-navbar></app-navbar>
+
+  <main class="p-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+    <app-card>
+      <span slot="header">Card 1</span>
+      <p slot="body">Descrição do card 1</p>
+      <div slot="footer">
+        <app-button variant="primary">Ação 0000</app-button>
+        <app-button variant="secondary">Cancelar</app-button>
+      </div>
+    </app-card>
+
+    <app-card>
+      <span slot="header">Card 2</span>
+      <p slot="body">Descrição do card 2</p>
+      <div slot="footer">
+        <app-button variant="primary">Ação 22222</app-button>
+        <app-button variant="secondary">Cancelar</app-button>
+      </div>
+    </app-card>
+  </main>
+
+  <app-footer></app-footer>
+
+</body>
+</html>
