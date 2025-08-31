@@ -11,13 +11,10 @@ class AppNavbar extends HTMLElement {
     render() {
       this.shadowRoot.innerHTML = `
       <link rel="stylesheet" href="/src/assets/css/style.css">
-      <nav class="bg-gray-500 text-black p-4 flex flex-row justify-between items-center">
-        <div class="font-bold text-lg">MinhaMarca</div>
+      <nav class="bg-black text-black p-4 flex flex-row justify-between items-center px-[var(--section-padding-x-lg)] py-[var(--section-padding-y-sm)]">
+        <img src="/src/assets/images/logo.svg" alt="Landify Logo" class="h-5">
         <ul class="flex gap-6 list-none m-0">
-          <li><a href="#" class="text-black hover:text-red-500 transition">Início</a></li>
-          <li><a href="#" class="text-black hover:text-red-500 transition">Sobre</a></li>
-          <li><a href="#" class="text-black hover:text-red-500 transition">Serviços</a></li>
-          <li><a href="#" class="text-black hover:text-red-500 transition">Contato</a></li>
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-gray hover:text-white transition">www.landify.design</a></li>
         </ul>
       </nav>
     `;

@@ -11,31 +11,62 @@
   <script type="module" src="/src/components/app-button.js"></script>
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-white w-full h-full">
 
   <app-navbar></app-navbar>
 
-  <main class="p-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-    <app-card>
-      <span slot="header">Card 1</span>
-      <p slot="body">Descrição do card 1</p>
-      <div slot="footer">
-        <app-button variant="primary">Ação 0000</app-button>
-        <app-button variant="secondary">Cancelar</app-button>
-      </div>
-    </app-card>
+  <section class="bg-black h-[var(--section-hero-height)] max-w-[var(--section-max-width)] px-[var(--section-padding-x-lg)] py-[var(--section-padding-y-xl)] mx-auto">
+    <h1 class="text-5xl font-semibold font-sans text-white">Welcome to Landify</h1>
+    <p class="text-gray font-sans text-sm pt-4">We are glad you are here! Here’s some important info about Landify UI kit before you get started.</p>
+  </section>
 
-    <app-card>
-      <span slot="header">Card 2</span>
-      <p slot="body">Descrição do card 2</p>
-      <div slot="footer">
-        <app-button variant="primary">Ação 22222</app-button>
-        <app-button variant="secondary">Cancelar</app-button>
+  <main class="bg-white h-[var(--section-hero-height)] max-w-[var(--section-max-width)] px-[var(--section-padding-x-lg)] py-2 mx-auto">
+    
+    <section class="flex flex-col gap-4">
+      <h1 class="text-about text-black font-semibold pt-12">About</h1>
+        <div class="max-w-160">
+          <p class="text-paragrafo font-sans text-gray font-light">Landify is a landing page UI kit for Figma, created to help designers design the landing page quickly without having to spend much time. It is crafted with a vision to support any web project and thereby creating a block system that helps with all the use cases. The kit contains 170+ blocks and 500+ components. It's fully customisable, well-organised layers, text, color and effect styles.</p>
+        </div>
+        <ul class=" flex gap-6 list-none">
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">arivind.design</a></li>
+          <div class="text-gray">|</div>
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">landify.design</a></li>
+        </ul>
+    </section>
+    <section class="flex flex-col gap-2 pt-24" >
+      <div class=" flex flex-col bg-white max-w-160 max-h-160 border-solid border-3 border-primary p-12 gap-4 ">
+        <h1 class="text-about text-black font-semibold">Share your feedback</h1>
+        <div class="max-w-160">
+          <p class="text-paragrafo font-sans text-gray font-light">Landify is a landing page UI kit for Figma, created to help designers design the landing page quickly without having to spend much time. It is crafted with a vision to support any web project and thereby creating a block system that helps with all the use cases. The kit contains 170+ blocks and 500+ components. It's fully customisable, well-organised layers, text, color and effect styles.</p>
+        </div>
+        <ul class=" flex gap-6 list-none">
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">arivind.design</a></li>
+          <div class="text-gray">|</div>
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">landify.design</a></li>
+          <div class="text-gray">|</div>
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">landify.design</a></li>
+        </ul>
+        <img src="src/assets/images/Preview.svg" class="w-672 h-380 ">
       </div>
-    </app-card>
+    </section>
+    <section class="flex flex-col gap-2 pt-24" >
+      <div class=" flex flex-col bg-white max-w-160 max-h-160 border-solid border-3 border-primary p-12 gap-4 ">
+        <h1 class="text-about text-black font-semibold">Share your feedback</h1>
+        <div class="max-w-160">
+          <p class="text-paragrafo font-sans text-gray font-light">Landify is a landing page UI kit for Figma, created to help designers design the landing page quickly without having to spend much time. It is crafted with a vision to support any web project and thereby creating a block system that helps with all the use cases. The kit contains 170+ blocks and 500+ components. It's fully customisable, well-organised layers, text, color and effect styles.</p>
+        </div>
+        <ul class=" flex gap-6 list-none">
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">arivind.design</a></li>
+          <div class="text-gray">|</div>
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">landify.design</a></li>
+          <div class="text-gray">|</div>
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">landify.design</a></li>
+        </ul>
+        <img src="src/assets/images/Preview.svg" class="w-672 h-400">
+      </div>
+    </section>
   </main>
 
-  <app-footer></app-footer>
 
 </body>
 </html>
