@@ -12,13 +12,15 @@ class AppFooter extends HTMLElement {
       const year = new Date().getFullYear();
       this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="/src/assets/css/style.css">
-        <footer class="bg-gray-800 text-gray-300 p-6 text-center;
-          hover:text-accent transition;">   
-          <p> &copy; ${year} MinhaMarca. Todos os direitos reservados. </p>
-          <p>
-            <a href="#">Política de Privacidade</a> |
-            <a href="#">Termos de Uso</a>
-          </p>
+        <footer class="flex flex-col gap-6 bg-white pb-6">   
+          <div class="flex flex-col gap-1">
+            <div class="flex flex-row justify-between items-center">
+              <p class="font-sans text-sm text-line-2 font-normal">Landing Page UI Kit for figma</p>
+              <img src="/src/assets/images/logo-icon-figma.svg" alt="Landify Logo" class="h-6"></div>
+            </div>
+            <a href="#" class="text-neutro underline">www.landify.design</a>
+          </div>
+          <p class="text-neutro">© 2021 Landify</p>
         </footer>
       `;
     }

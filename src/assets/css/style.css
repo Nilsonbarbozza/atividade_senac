@@ -1,21 +1,23 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&display=swap');
+
 
 @theme {
   /* Fontes */
   --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
   /* Cores principais */
-  --color-primary: #7C3AED; /* Roxo Landify */
+  --color-primary: #7C3AED;
   --color-primary-dark: oklch(44% 0.16 310);
-  --color-yellow: oklch(93% 0.19 100); /* Amarelo usado no botão CTA */
-  --color-black: oklch(20% 0.02 240); /* Textos escuros */
-  --color-white: oklch(100% 0 0);
-  --color-bg-dark: oklch(24% 0.04 280); /* Background escuro da landing */
-  --color-bg-purple: oklch(35% 0.10 300); /* Seções secundárias */
-  --color-gray: oklch(72% 0.02 260); /* Textos e bordas suaves */
+  --color-neutro: #4B5563; /* <p> Neutro */
+  --color-black: #111827; /* Textos escuros */
+  --color-white: #FFFFFF;
+  --color-neutro-300: #D1D5DB; 
+  --color-line: #7C3AED; /* cor line */
+  --color-line2: #111827; /* cor line2 */
 
   /* Tamanhos de fonte */
-  --text-about: 22px; 
+  --text-about: 30px; 
   --text-paragrafo: 18px;
   --text-sm: 20px;
   --text-titulo: 30px;

@@ -11,62 +11,75 @@
   <script type="module" src="/src/components/app-button.js"></script>
 </head>
 
-<body class="bg-white w-full h-full">
+<body class="bg-white justify-around w-full h-full">
 
+  <!--Navbar-->
   <app-navbar></app-navbar>
+  <!--End-Navbar-->
 
+  <!--Hero-->
   <section class="bg-black h-[var(--section-hero-height)] max-w-[var(--section-max-width)] px-[var(--section-padding-x-lg)] py-[var(--section-padding-y-xl)] mx-auto">
     <h1 class="text-5xl font-semibold font-sans text-white">Welcome to Landify</h1>
-    <p class="text-gray font-sans text-sm pt-4">We are glad you are here! Here’s some important info about Landify UI kit before you get started.</p>
+    <p class="text-neutro-300 font-sans leading-normal tracking-tighter font-normal text-sm pt-4">We are glad you are here! Here’s some important info about Landify UI kit before you get started.</p>
   </section>
+  <!--End-Hero-->
 
+  <!--Main-->
   <main class="bg-white h-[var(--section-hero-height)] max-w-[var(--section-max-width)] px-[var(--section-padding-x-lg)] py-2 mx-auto">
-    
+    <!--About-->
     <section class="flex flex-col gap-4">
       <h1 class="text-about text-black font-semibold pt-12">About</h1>
         <div class="max-w-160">
-          <p class="text-paragrafo font-sans text-gray font-light">Landify is a landing page UI kit for Figma, created to help designers design the landing page quickly without having to spend much time. It is crafted with a vision to support any web project and thereby creating a block system that helps with all the use cases. The kit contains 170+ blocks and 500+ components. It's fully customisable, well-organised layers, text, color and effect styles.</p>
+          <p class="text-paragrafo font-sans font-normal leading-normal tracking-tighter text-neutro">Landify is a landing page UI kit for Figma, created to help designers design the landing page quickly without having to spend much time. It is crafted with a vision to support any web project and thereby creating a block system that helps with all the use cases. The kit contains 170+ blocks and 500+ components. It's fully customisable, well-organised layers, text, color and effect styles.</p>
         </div>
         <ul class=" flex gap-6 list-none">
-          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">arivind.design</a></li>
-          <div class="text-gray">|</div>
-          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">landify.design</a></li>
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary underline font-sans font-medium hover:text-primary-dark transition">Arivind.design↗</a></li>
+          <div class="text-neutro-300">|</div>
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary underline font-sans font-medium hover:text-primary-dark transition">Landify.design↗</a></li>
         </ul>
     </section>
-    <section class="flex flex-col gap-2 pt-24" >
-      <div class=" flex flex-col bg-white max-w-160 max-h-160 border-solid border-3 border-primary p-12 gap-4 ">
+    <!--End-About-->
+    <!--Card-0-->
+    <section class="flex flex-col pt-24" >
+      <div class=" flex flex-col bg-white max-w-160 max-h-160 border-solid border-3 border-line py-4 px-4 gap-6 ">
         <h1 class="text-about text-black font-semibold">Share your feedback</h1>
         <div class="max-w-160">
-          <p class="text-paragrafo font-sans text-gray font-light">Landify is a landing page UI kit for Figma, created to help designers design the landing page quickly without having to spend much time. It is crafted with a vision to support any web project and thereby creating a block system that helps with all the use cases. The kit contains 170+ blocks and 500+ components. It's fully customisable, well-organised layers, text, color and effect styles.</p>
+          <p class="text-paragrafo font-sans font-normal leading-normal tracking-tighter text-neutro">We hear you. We have a feedback board where we hear your feedback and suggestions to improve Landify. If you have any suggestions or feedback or ideas to improve the Landify UI Kit, please do share you thoughts.</p>
         </div>
         <ul class=" flex gap-6 list-none">
-          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">arivind.design</a></li>
-          <div class="text-gray">|</div>
-          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">landify.design</a></li>
-          <div class="text-gray">|</div>
-          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">landify.design</a></li>
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary underline font-medium hover:text-primary-dark transition">Give Feedback↗</a></li>
+          <div class="text-neutro-300">|</div>
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary underline font-medium hover:text-primary-dark transition">Roadmap↗</a></li>
+          <div class="text-neutro-300">|</div>
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary underline font-medium hover:text-primary-dark transition">Changelog↗</a></li>
         </ul>
-        <img src="src/assets/images/Preview.svg" class="w-672 h-380 ">
+        <img src="src/assets/images/Preview-0.svg" class="w-672 h-380 ">
       </div>
     </section>
-    <section class="flex flex-col gap-2 pt-24" >
-      <div class=" flex flex-col bg-white max-w-160 max-h-160 border-solid border-3 border-primary p-12 gap-4 ">
-        <h1 class="text-about text-black font-semibold">Share your feedback</h1>
+    <!--End-Card-0-->
+    <!--Card-1-->
+    <section class="flex flex-col py-24" >
+      <div class=" flex flex-col bg-white max-w-160 max-h-155 border-solid border-3 border-line py-4 px-4 gap-6 ">
+        <h1 class="text-about text-black font-semibold">Community Showcase</h1>
         <div class="max-w-160">
-          <p class="text-paragrafo font-sans text-gray font-light">Landify is a landing page UI kit for Figma, created to help designers design the landing page quickly without having to spend much time. It is crafted with a vision to support any web project and thereby creating a block system that helps with all the use cases. The kit contains 170+ blocks and 500+ components. It's fully customisable, well-organised layers, text, color and effect styles.</p>
+          <p class="text-paragrafo font-sans font-normal leading-normal tracking-tighter text-neutro">The Landify community is always building amazing websites. Discover the sites made using Landify across the web, find inspiration.</p>
         </div>
         <ul class=" flex gap-6 list-none">
-          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">arivind.design</a></li>
-          <div class="text-gray">|</div>
-          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">landify.design</a></li>
-          <div class="text-gray">|</div>
-          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary hover:text-primary-dark transition">landify.design</a></li>
+          <div class="flex flex-row justify-between gap-6 text-neutro-300">
+            <h1 class="text-paragrafo font-sans font-normal leading-normal tracking-tighter text-neutro">Want to get featured?</h1>
+            <p class="text-neutro-300">|</p>
+          </div>
+          <li><a href="https://landify.design/?ref=landifyuikit" class="text-primary underline font-medium hover:text-primary-dark transition">Submite your work↗</a></li>
         </ul>
-        <img src="src/assets/images/Preview.svg" class="w-672 h-400">
+        <img src="src/assets/images/Preview-1.svg" class="w-672 h-380 ">
       </div>
     </section>
+    <!--End-Card-1-->
+    <hr class="text-line2 py-12">
+  <!--Footer-->
+   <app-footer></app-footer>
+   <!--End-Footer-->
   </main>
-
-
+  <!--End-Main-->
 </body>
 </html>
